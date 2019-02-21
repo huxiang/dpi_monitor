@@ -1,0 +1,13 @@
+﻿<Window x:Class="DPIMonitor.DpiMonitorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DPIMonitor"
+        mc:Ignorable="d"
+        Title="DPIMonitor" Height="300" Width="450" DpiChanged="WindowDpiChanged" SizeChanged="WindowSizeChanged" LayoutUpdated="WindowLayoutUpdated">
+    <Grid Margin="0,0,0,2.602">
+        <TextBlock VerticalAlignment="Top" Name="DPI" Height="207.398" TextWrapping="Wrap" Text="TextBlock" Width="422" FontSize="20" HorizontalAlignment="Left" Margin="10,49,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Name="OutputPath" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="422" Height="34" Foreground="#FF084AF9"/>
+    </Grid>
+</Window>
